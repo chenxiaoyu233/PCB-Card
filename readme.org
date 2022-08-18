@@ -1,4 +1,4 @@
-I always want to build some customized devices for myself, in which I have to impliement both the hardware and the software.
+I always want to build some customized devices for myself, in which I have to implement both the hardware and the software.
 I am quite familiar with softare development but only with little experience for the hardware development.
 
 To implement the hardware, the most important part seems to be the design of printed circuit board (PCB).
@@ -25,7 +25,7 @@ And this project aims at gaining such kind of experience.
 
     For future concern, I also add a circuit for a 1.54 inch e-paper screen ([[https://www.waveshare.net/shop/1.54inch-e-Paper-B.htm][e-paper-screen]]).
     The final result is like
-    [[./readme-mat/原理图.pdf]]
+    [[./readme-mat/原理图.png]]
 
 ** Design the PCB layout
     This step is quite simple because my pcb only runs at low speed.
@@ -52,7 +52,7 @@ And this project aims at gaining such kind of experience.
 
     When BOOT0 pin is set to 0, the chip initialized as follows:
     1. set the 32bit at =0x08000000= - =0x08000003= to register =SP=, which always point to the top of the stack (the stack grow towards 0).
-       /Typically, these 32bit should be set as =0x20004FFF= as the bottom of the RAM./
+       Typically, these 32bit should be set as =0x20004FFF= as the bottom of the RAM.
     2. set the 32bit at =0x08000004= - =0x08000007= to register =PC=, which is the program counter.
 
     This indicates us about how to initialize in our program.
