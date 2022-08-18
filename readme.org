@@ -72,4 +72,7 @@ And this project aims at gaining such kind of experience.
     Luckily, I could use qemu to simulate the STM32 and run my program on it first.
     Though the model is not exactly the same, it still helps me a lot.
     The material on [[./doc/STM32L0x3-man.pdf][STM32L0x3-Manual]] for the boot behavior is very ambiguous, you have to do some experiment to figure out what happens.
+
+** Final Results
+    [[./readme-mat/output.gif]]
     
