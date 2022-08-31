@@ -1,4 +1,4 @@
-20344558628162829
+20346220046698712
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85973,6 +85973,13 @@ varistor SIOV
 0
 2
 2
+local_lib
+FPC-SMD_24P-P0.50_0.5K-AS-24PWB
+
+
+0
+26
+26
 local_lib
 FPC-SMD_KH-FG0.5-H2.0-24PIN
 
